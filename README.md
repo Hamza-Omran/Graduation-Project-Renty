@@ -682,7 +682,7 @@ A comprehensive hybrid recommendation system built with LightFM for the Renty e-
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-## 🎯 Overview
+## Overview
 
 The Renty E-commerce Recommendation System is designed to enhance user experience and increase sales by providing intelligent, personalized product recommendations. The system analyzes historical transaction data, user demographics, and product characteristics to predict items that customers are most likely to purchase.
 
@@ -1099,3 +1099,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - Abdulrahman (Data Analysis & EDA)
   - Yasser Ashraf (Model Development)
   - Moamen Ahmed (Model Evaluation)
+
