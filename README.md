@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Gap Analysis Project - Complete Technical Documentation
 
 ## Project Overview
@@ -667,7 +666,7 @@ actions = planner.generate_category_action_plan(gaps)
 
 A comprehensive hybrid recommendation system built with LightFM for the Renty e-commerce platform. This system leverages both collaborative filtering and content-based approaches to deliver personalized product recommendations based on user demographics, purchase behavior, and product features.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -694,7 +693,7 @@ The Renty E-commerce Recommendation System is designed to enhance user experienc
 - **Robust Performance**: Test AUC of 0.84+ with low overfitting (gap < 0.05)
 - **Production Ready**: Includes model persistence and inference pipeline
 
-## ✨ Features
+## Features
 
 ### Model Features
 
@@ -714,14 +713,14 @@ The Renty E-commerce Recommendation System is designed to enhance user experienc
 
 ### System Capabilities
 
-- ✅ Personalized top-N recommendations
-- ✅ Filtering of already-purchased items
-- ✅ Real-time prediction for new users (cold-start handling)
-- ✅ Comprehensive evaluation metrics (Precision@K, Recall@K, AUC)
-- ✅ Hyperparameter optimization with regularization
-- ✅ Model serialization for deployment
+- Personalized top-N recommendations
+- Filtering of already-purchased items
+- Real-time prediction for new users (cold-start handling)
+- Comprehensive evaluation metrics (Precision@K, Recall@K, AUC)
+- Hyperparameter optimization with regularization
+- Model serialization for deployment
 
-## 📊 Dataset
+## Dataset
 
 ### Data Overview
 
@@ -753,7 +752,7 @@ The Renty E-commerce Recommendation System is designed to enhance user experienc
 | Occupation | object | Customer occupation |
 | HomeOwner | object | Home ownership status |
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -809,7 +808,7 @@ The Renty E-commerce Recommendation System is designed to enhance user experienc
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -857,7 +856,7 @@ lightfm>=1.17
 pip install git+https://github.com/daviddavo/lightfm
 ```
 
-## 💻 Usage
+## Usage
 
 ### Quick Start
 
@@ -944,7 +943,7 @@ drive.mount('/content/drive')
 3. Update the filepath to your dataset location
 4. Run all cells sequentially
 
-## 📈 Model Performance
+## Model Performance
 
 ### Final Model Metrics
 
@@ -981,7 +980,7 @@ The improved model significantly outperforms the baseline:
 - **Precision@10**: Maintained competitive performance with better generalization
 
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Feature Engineering Pipeline
 
@@ -1047,7 +1046,7 @@ Recall@K = (Relevant items in top-K) / (Total relevant items)
 # Measures the model's ability to rank relevant items higher
 ```
 
-## 🔮 Future Improvements
+## Future Improvements
 
 ### Short-term Enhancements
 - [ ] Implement real-time recommendation API with Flask/FastAPI
@@ -1070,7 +1069,7 @@ Recall@K = (Relevant items in top-K) / (Total relevant items)
 - [ ] Create recommendation explanation dashboard
 - [ ] Develop cross-domain recommendation capabilities
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -1088,11 +1087,11 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 - Include type hints where appropriate
 - Write unit tests for new features
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **LightFM Library**: For providing an excellent hybrid recommendation framework
 - **Renty E-commerce**: For the dataset and use case
@@ -1100,15 +1099,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - Abdulrahman (Data Analysis & EDA)
   - Yasser Ashraf (Model Development)
   - Moamen Ahmed (Model Evaluation)
-
-## 📞 Contact
-
-For questions or feedback, please reach out:
-
-- **Email**: yasserashraf3142@gmail.com
-- **LinkedIn**: [Yasser Ashraf](https://www.linkedin.com/in/yasserashraf/)
-
-**⭐ If you find this project helpful, please consider giving it a star!**
-
-Last Updated: November 2025
->>>>>>> development
